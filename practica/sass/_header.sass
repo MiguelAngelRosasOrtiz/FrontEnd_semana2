@@ -1,0 +1,43 @@
+body
+    header
+        background-color: $azul
+        nav
+            background-color: $rosa
+            position: fixed
+            width: 100%
+            z-index: 100
+            border-bottom: solid $carbon 1px
+            ul
+                display: flex
+                justify-content: center
+                li
+                    display: inline
+                    font-size: 22px
+                    font-weight: 700
+                    padding: 15px 25px
+                    a
+                        text-decoration: none
+                        // font-family: arial
+                        color: $morado
+                        transition: ease color .3s
+                        &:hover
+                            color: $blanco  
+    .contenedor-presentacion
+        padding-top: 61px
+        .presentacion
+            background-color: $azul
+            display: flex
+            justify-content: center
+            flex-wrap: wrap
+            .contenedor-logo
+                width: 450px
+                img
+                    width: 100%
+                    vertical-align: top
+        .contenedor-h1
+            width: 1000px
+            text-align: center
+            margin-top: 30px
+            color: $blanco
+            margin-bottom: 93px
+            font-size: 18px

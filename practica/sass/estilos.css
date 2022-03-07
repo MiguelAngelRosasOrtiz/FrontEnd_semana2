@@ -1,0 +1,170 @@
+/* SCSS HEX */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: "Nunito", sans-serif; }
+
+body header {
+  background-color: #007fffff; }
+  body header nav {
+    background-color: #ffc9c9ff;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    border-bottom: solid #262626ff 1px; }
+    body header nav ul {
+      display: flex;
+      justify-content: center; }
+      body header nav ul li {
+        display: inline;
+        font-size: 22px;
+        font-weight: 700;
+        padding: 15px 25px; }
+        body header nav ul li a {
+          text-decoration: none;
+          color: #740743ff;
+          transition: ease color 0.3s; }
+          body header nav ul li a:hover {
+            color: #fff; }
+body .contenedor-presentacion {
+  padding-top: 61px; }
+  body .contenedor-presentacion .presentacion {
+    background-color: #007fffff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    body .contenedor-presentacion .presentacion .contenedor-logo {
+      width: 450px; }
+      body .contenedor-presentacion .presentacion .contenedor-logo img {
+        width: 100%;
+        vertical-align: top; }
+  body .contenedor-presentacion .contenedor-h1 {
+    width: 1000px;
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+    margin-bottom: 93px;
+    font-size: 18px; }
+
+main .banner {
+  background-image: url(../img/banner1.png);
+  width: 100%;
+  height: 400px;
+  background-position: bottom;
+  background-size: 100%; }
+main .contenedor-mensaje-banner {
+  width: 700px;
+  height: 100%;
+  font-size: 33px;
+  color: #740743ff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-left: 50px; }
+main section {
+  background-color: #fff; }
+  main section .titulo-section {
+    color: #007fffff;
+    padding: 44px 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 27px; }
+  main section article {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 54px;
+    border-bottom: solid 2px #007fffff; }
+    main section article .nombre-articulo {
+      font-size: 19px;
+      color: #262626ff;
+      margin-bottom: 5px;
+      font-weight: 700;
+      text-transform: capitalize; }
+    main section article .precio {
+      font-weight: 700;
+      color: #740743ff;
+      font-size: 22px;
+      margin-bottom: 5px; }
+    main section article h3 {
+      color: #740743ff;
+      font-size: 24px;
+      width: 100%;
+      margin-left: 50px;
+      margin-bottom: 10px; }
+    main section article .contenedor {
+      width: 90%;
+      background-color: #ffc9c9ff;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      padding: 30px; }
+      main section article .contenedor .contenido-creacion {
+        padding: 0 20px;
+        display: flex;
+        flex-wrap: wrap; }
+        main section article .contenedor .contenido-creacion .elemento {
+          padding: 10px 0;
+          width: 25%;
+          display: flex;
+          align-items: center;
+          flex-flow: column; }
+          main section article .contenedor .contenido-creacion .elemento img {
+            width: 150px;
+            margin-bottom: 15px;
+            border-radius: 10px; }
+          main section article .contenedor .contenido-creacion .elemento input[type="radio"] + label:before {
+            content: "";
+            width: 26px;
+            height: 26px;
+            float: left;
+            margin: -1em 0em 0 0;
+            border: 2px solid #ccc;
+            background: #fff;
+            border-radius: 100%; }
+          main section article .contenedor .contenido-creacion .elemento input[type="radio"]:checked + label:after {
+            content: "";
+            width: 0;
+            height: 0;
+            border: 8px solid #0fbf12;
+            float: left;
+            margin-left: -1.45em;
+            margin-top: -0.5em;
+            border-radius: 100%; }
+    main section article .sabores {
+      width: 60%; }
+    main section article .decoraciones {
+      width: 50%; }
+      main section article .decoraciones .contenido-creacion .decoracion {
+        width: 50%; }
+    main section article .colores {
+      width: 70%; }
+      main section article .colores .contenido-creacion .color {
+        width: 25%; }
+main .datos-envio article {
+  color: #740743ff;
+  font-size: 20px;
+  font-weight: 700;
+  color: #740743ff;
+  text-align: center;
+  margin-bottom: 15px; }
+  main .datos-envio article .contenedor {
+    background-color: #D3FFF3; }
+    main .datos-envio article .contenedor .contenido-creacion .formulario {
+      background-color: #fff;
+      width: 90%; }
+      main .datos-envio article .contenedor .contenido-creacion .formulario form label {
+        display: inline-block;
+        margin-right: 10px;
+        padding: 15px; }
+      main .datos-envio article .contenedor .contenido-creacion .formulario form textarea {
+        min-width: 600px;
+        max-width: 600px;
+        min-height: 150px;
+        max-height: 150px; }
+  main .datos-envio article .ub {
+    width: 50%; }
+
+/*# sourceMappingURL=estilos.css.map */
